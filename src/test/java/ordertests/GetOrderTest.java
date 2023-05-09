@@ -33,9 +33,9 @@ public class GetOrderTest {
         baseURL.setUp();
         ingredientList = ingredientAPI.getIngredient();
         ingredients = new ArrayList<>();
-        ingredients.add(ingredientList.getData().get(1).get_id());
-        ingredients.add(ingredientList.getData().get(2).get_id());
-        ingredients.add(ingredientList.getData().get(3).get_id());
+        ingredients.add(ingredientList.getData().get(1).getId());
+        ingredients.add(ingredientList.getData().get(2).getId());
+        ingredients.add(ingredientList.getData().get(3).getId());
         userAPI.creatingUser(user);
         accessToken = userAPI.loginUser(user).then().extract().path("accessToken");
         order = new Order(ingredients);

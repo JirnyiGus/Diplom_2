@@ -7,7 +7,6 @@ import serialization.User;
 import static io.restassured.RestAssured.given;
 
 public class UserAPI {
-    User user;
 
     @Step("Создания пользователя")
 

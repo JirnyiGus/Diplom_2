@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f0a231f-57d0-4984-9d56-506f8230acbc" name="Changes" comment="">
+    <list default="true" id="3f0a231f-57d0-4984-9d56-506f8230acbc" name="Changes" comment="Diplom_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pens/UserAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pens/UserAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serialization/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serialization/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ordertests/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ordertests/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ordertests/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ordertests/GetOrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +52,15 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Download/IDEA/projects/Diplom/Diplom_Oleg&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Download/IDEA/projects/Diplom/Diplom_2&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.CreateOrderTest">
     <configuration name="ChangeUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint7_project" />
@@ -147,6 +156,18 @@
       <option name="presentableId" value="Default" />
       <updated>1682715265126</updated>
     </task>
+    <task id="LOCAL-00001" summary="Diplom_2">
+      <created>1683298090379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683298090379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Diplom_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diplom_2" />
   </component>
 </project>
